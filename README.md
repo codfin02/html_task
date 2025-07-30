@@ -1,80 +1,16 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>codfin02 프로필</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      height: 100vh;
-      width: 100vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #f5f5f7;
-      font-family: 'Segoe UI', 'Apple SD Gothic Neo', Arial, sans-serif;
-    }
-    .profile-container {
-      background: #fff;
-      padding: 40px 32px 32px 32px;
-      border-radius: 16px;
-      box-shadow: 0 6px 24px rgba(60,60,60,0.08);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      min-width: 320px;
-      max-width: 90vw;
-    }
-    .profile-name {
-      font-size: 2.6rem;
-      font-weight: bold;
-      color: #30336b;
-      margin-bottom: 18px;
-      letter-spacing: 2px;
-    }
-    .profile-image {
-      width: 320px;
-      max-width: 90vw;
-      height: auto;
-      margin-bottom: 20px;
-      display: block;
-      border-radius: 8px;
-      box-shadow: 0 2px 12px rgba(60,60,60,0.12);
-      border: 2.5px solid #dfe4ea;
-      object-fit: cover;
-    }
-    .profile-desc {
-      font-size: 1.16rem;
-      color: #636e72;
-      text-align: center;
-      margin-top: 0;
-    }
-    @media (max-width: 480px) {
-      .profile-container {
-        padding: 24px 8px 20px 8px;
-        min-width: unset;
-      }
-      .profile-name {
-        font-size: 2rem;
-      }
-      .profile-image {
-        width: 100%;
-        min-width: 0;
-        max-width: 100vw;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="profile-container">
-    <div class="profile-name">codfin02</div>
-    <img class="profile-image" src="https://i.pinimg.com/736x/6b/60/94/6b6094288ae46fcc71259f29f9200c86.jpg" alt="codfin02 프로필 이미지">
-    <div class="profile-desc">html 열심히 배워서 잘써보겠습니다</div>
-  </div>
-</body>
-</html>
+# codfin02 Profile
+
+![codfin02 프로필 이미지](https://i.pinimg.com/736x/6b/60/94/6b6094288ae46fcc71259f29f9200c86.jpg)
+
+**html 열심히 배워서 잘써보겠습니다**
+
+---
+
+이 저장소에는 나만의 프로필 페이지를 위한 `index.html` 파일이 포함되어 있습니다. 아래 기능과 구조를 바로 확인해 보세요.
+
+## 파일 구조
+
+```plaintext
+/ (저장소 루트)
+├─ README.md           # 프로필 README (이 파일)
+└─ index.html          # 프로필 페이지 HTML
